@@ -12,3 +12,7 @@
 * To see usage, check out `example_train.py` and `example_evaluate.py`.
 * Run `example_train.py` to save model and config, which are prerequisites for `example_evaluate.py`. 
 
+## Version Info
+
+* torch=1.1.0
+* cuda=9.2
