@@ -1,3 +1,6 @@
+"""Functions for training model and evaluating trained model."""
+
+
 import dill
 import os
 import time

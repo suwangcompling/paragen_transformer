@@ -1,3 +1,6 @@
+"""Example: how to train and save a model."""
+
+
 if __name__ == '__main__':
 
   import data_utils

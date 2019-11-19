@@ -1,3 +1,6 @@
+"""Example: how to load and evaluate model with a prediction run."""
+
+
 if __name__ == '__main__':
 
   import runners

@@ -1,3 +1,6 @@
+"""PyTorch modules for Transformer."""
+
+
 import copy
 import math
 import torch
