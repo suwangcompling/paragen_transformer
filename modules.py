@@ -658,11 +658,6 @@ class LabelSmoothing(nn.Module):
     smoothed_target[:, constants.PAD] = 0
     mask = torch.nonzero(target.data == constants.PAD)
 
-    # print(mask)
-    # print(mask.dim())
-    # print(true_.index_fill_(0, mask.squeeze(), 0.0))
-    # assert False
-
     if mask.dim() > 0:
       smoothed_target.index_fill_(0, mask.squeeze(), 0.0)
     self.smoothed_target = smoothed_target
